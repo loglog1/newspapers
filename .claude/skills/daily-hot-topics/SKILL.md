@@ -4,7 +4,7 @@
 
 ## 使い方
 
-`/daily-hot-topics` と入力して実行する。
+`/topics` と入力して実行する。
 
 ## 実行手順
 
@@ -12,10 +12,12 @@
 
 ### 1. 情報収集
 
-**arxiv.org** と **reddit.com** から前日（yesterdayの日付）にホットだった話題を収集する。
-
+**arxiv.org** と **reddit.com**, **https://huggingface.co/papers/trending**, **youtube.com**から前日（yesterdayの日付）にホットだった話題を収集する。
+- 
 - arxiv.org: 前日に投稿・注目された論文（cs, AI, physics などの人気カテゴリ）
 - reddit.com: 前日にホットだったポスト（r/technology, r/science, r/programming など）
+- https://huggingface.co/papers/trending: 画像関係の最新論文をまとめる
+- youtube.com: AIに関連する動画
 
 各サイトから上位20件を目安に収集する。
 
